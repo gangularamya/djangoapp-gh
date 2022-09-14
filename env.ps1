@@ -1,4 +1,4 @@
-$Env:DBHOST = "localhost"
-$Env:DBUSER = "manager"
-$Env:DBNAME = "pollsdb"
-$Env:DBPASS = "supersecretpass"
+$Env:DBHOST = "djangoghpgdb"
+$Env:DBUSER = "username"
+$Env:DBNAME = "djangoghpgdb"
+$Env:DBPASS = "Password1"
