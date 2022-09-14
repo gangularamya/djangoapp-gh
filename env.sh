@@ -1,5 +1,5 @@
-export DBHOST="localhost"
-export DBUSER="manager"
-export DBNAME="pollsdb"
-export DBPASS="supersecretpass"
+export DBHOST="djangoghpgdb"
+export DBUSER="username"
+export DBNAME="djangoghpgdb"
+export DBPASS="Password1"
 
