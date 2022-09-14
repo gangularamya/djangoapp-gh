@@ -29,7 +29,7 @@ hostname = 'djangoghpgdb'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'restaurant',
         'HOST': hostname + ".postgres.database.azure.com",
         'USER': 'username' + "@" + hostname,
         'PASSWORD': 'Password1'
