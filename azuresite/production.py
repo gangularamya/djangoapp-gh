@@ -22,16 +22,16 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # DBHOST is only the server name, not the full URL
-hostname = os.environ['DBHOST']
+hostname = 'djangoghpgdb'
 
 # Configure Postgres database; the full username is username@servername,
 # which we construct using the DBHOST value.
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['DBNAME'],
+        'NAME': 'djangoghpgdb',
         'HOST': hostname + ".postgres.database.azure.com",
-        'USER': os.environ['DBUSER'] + "@" + hostname,
-        'PASSWORD': os.environ['DBPASS'] 
+        'USER': 'username' + "@" + hostname,
+        'PASSWORD': 'Password1'
     }
 }
