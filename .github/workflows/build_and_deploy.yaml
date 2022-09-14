@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  WEBAPP_NAME: 'djangoapp-gh'  # Replace with the name of your Azure web app
+  WEBAPP_NAME: 'djangoapp-gh'  # Replace with the name of your Azure webapp
 
 jobs:
   build-and-test:
